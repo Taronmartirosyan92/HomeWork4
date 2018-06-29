@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="marginButton">2dp</dimen>
+    <dimen name="rgbColorsValue">48sp</dimen>
+    <dimen name="marginInt">35dp</dimen>
+    <dimen name="textSize">20sp</dimen>
+    <dimen name="textLifSize">13sp</dimen>
+    <dimen name="sizeSix">16dp</dimen>
+    <dimen name="sizeEight">8dp</dimen>
+    <dimen name="appBarHeight">185dp</dimen>
+    <dimen name="app_bar_height">180dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+</resources>

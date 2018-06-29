@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/colors"
+    android:orientation="vertical"
+    android:weightSum="1"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/linearId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="2dp"
+        android:layout_weight="0.2"
+        android:background="@drawable/button_border"
+        android:text="@string/linear" />
+
+    <Button
+        android:id="@+id/relativeId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="2dp"
+        android:layout_weight="0.2"
+        android:background="@drawable/button_border"
+        android:text="@string/relative" />
+
+    <Button
+        android:id="@+id/frameId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/marginButton"
+        android:layout_weight="0.2"
+        android:background="@drawable/button_border"
+        android:text="@string/frame" />
+
+    <Button
+        android:id="@+id/coordinatorId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/marginButton"
+        android:layout_weight="0.2"
+        android:background="@drawable/button_border"
+        android:text="@string/coordinator" />
+
+    <Button
+        android:id="@+id/constraintId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="@dimen/marginButton"
+        android:layout_marginTop="@dimen/marginButton"
+        android:layout_weight="0.2"
+        android:background="@drawable/button_border"
+        android:text="@string/constraint" />
+
+</LinearLayout>

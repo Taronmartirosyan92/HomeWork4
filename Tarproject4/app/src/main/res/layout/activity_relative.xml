@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/myRelativeId"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RelativeActivity"
+    android:background="@color/colorBlack">
+
+    <Button
+        android:id="@+id/redButtonId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/redText"
+        android:background="@color/colorRed"/>
+    <Button
+        android:id="@+id/orangeButtonId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/orangeText"
+        android:layout_centerHorizontal="true"
+        android:background="@color/colorOrange"/>
+    <Button
+        android:id="@+id/yellowButtonId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/yellowText"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:background="@color/colorYellow"
+        tools:ignore="RelativeOverlap" />
+    <Button
+        android:background="@color/colorGreen"
+        android:id="@+id/greenButtonId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/greenText"
+        android:layout_toLeftOf="@id/blueButtonId"
+        android:layout_centerVertical="true"
+        android:layout_toStartOf="@id/blueButtonId"
+        tools:ignore="RelativeOverlap" />
+    <Button
+        android:background="@color/colorBlue"
+        android:id="@+id/blueButtonId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/blueText"
+        android:layout_centerInParent="true"/>
+    <Button
+        android:background="@color/colorIndigo"
+        android:id="@+id/indigoButtonId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/indigoText"
+        android:layout_toRightOf="@id/blueButtonId"
+        android:layout_toEndOf="@id/blueButtonId"
+        android:layout_centerVertical="true"/>
+    <Button
+        android:background="@color/colorViolet"
+        android:id="@+id/violetButtonId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/violetText"
+        android:layout_alignParentBottom="true"
+        />
+
+</RelativeLayout>
